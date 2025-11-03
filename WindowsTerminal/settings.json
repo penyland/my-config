@@ -1,0 +1,258 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [
+        {
+            "command": {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": {
+                "action": "newTab"
+            },
+            "id": "User.newTab.5DEADB41"
+        },
+        {
+            "command": "closePane",
+            "id": "User.closePane"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "focusFollowMouse": true,
+    "keybindings": [
+        {
+            "id": "User.newTab.5DEADB41",
+            "keys": "ctrl+t"
+        },
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+t"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": "User.closePane",
+            "keys": "ctrl+w"
+        }
+    ],
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": {
+        "defaults": {
+            "colorScheme": "Campbell Powershell",
+            "font": {
+                "face": "Cascadia Code NF",
+                "size": 11
+            },
+            "opacity": 80,
+            "scrollbarState": "visible",
+            "snapOnInput": false,
+            "startingDirectory": "C:\\Repos",
+            "useAcrylic": true
+        },
+        "list": [
+            {
+                "antialiasingMode": "cleartype",
+                "colorScheme": "Campbell Powershell",
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "snapOnInput": true,
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "antialiasingMode": "cleartype",
+                "colorScheme": "Campbell Powershell",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
+                "elevate": true,
+                "guid": "{aeb65d9b-95b8-4919-a772-a5f568098255}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "PowerShell (Admin)",
+                "snapOnInput": true
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "font": {
+                    "face": "Cascadia Mono NF"
+                },
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
+            },
+            {
+                "guid": "{e71cea9a-d69b-5e5f-b4fe-539d7e3b7fea}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022 [Preview]",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{6d01c641-cf11-54ee-9710-c7164ade574c}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022 [Preview]",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{f8c8e354-1e66-55ea-8052-f47c3dc19bf6}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{d4a75f8c-877a-5b87-9773-da154b852d14}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{cefbf858-e251-5164-8e5f-1020afe4c74e}",
+                "hidden": false,
+                "name": "Ubuntu-24.04",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{45d399b5-5b12-51d8-91b4-f51ccf8b24bd}",
+                "hidden": false,
+                "name": "podman-machine-default",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{e480817f-a0f6-571b-b286-2629a087a5b3}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022 [Preview]",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{cc386986-df2f-568b-9a00-3c510c6365cc}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022 [Preview]",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "guid": "{d9ee2fda-f88f-502b-ab1b-4f5714b13f16}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2022 (ProPreview)",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{1fca5d39-5480-52bb-8828-cff100598000}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2022 (ProPreview)",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{fa8cfba4-c8a7-5361-8f61-5f0ec17dc0ab}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 21",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{d3c103a5-fc8e-5456-ab16-8594d7b07ef2}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 21",
+                "source": "Windows.Terminal.VisualStudio"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "background": "#1F1D45",
+            "black": "#050404",
+            "blue": "#0F4AC6",
+            "brightBlack": "#4E7CBF",
+            "brightBlue": "#1997C6",
+            "brightCyan": "#C8FAF4",
+            "brightGreen": "#9EFF6E",
+            "brightPurple": "#9B5953",
+            "brightRed": "#FC5F5A",
+            "brightWhite": "#F6F5FB",
+            "brightYellow": "#EFC11A",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#70A598",
+            "foreground": "#F8DCC0",
+            "green": "#4AB118",
+            "name": "AdventureTime",
+            "purple": "#665993",
+            "red": "#BD0013",
+            "selectionBackground": "#FFFFFF",
+            "white": "#F8DCC0",
+            "yellow": "#E7741E"
+        }
+    ],
+    "tabSwitcherMode": "mru",
+    "tabWidthMode": "titleLength",
+    "theme": "dark",
+    "themes": [],
+    "useAcrylicInTabRow": false,
+    "windowingBehavior": "useAnyExisting"
+}

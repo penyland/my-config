@@ -1,0 +1,40 @@
+[core]
+	editor = \"C:/Program Files/GitExtensions/GitExtensions.exe\" fileeditor
+	autocrlf = true
+[credential]
+	helper = manager
+[user]
+	name = Peter Nylander
+	email = peter.nylander@gmail.com
+[includeIf "gitdir:C:/Repos/Work/"]
+	path = .gitconfig-work
+[pull]
+	rebase = false
+[push]
+	autoSetupRemote = true
+[fetch]
+	prune = true
+[rebase]
+	autoStash = false
+	autosquash = false
+	updateRefs = false
+[diff]
+	tool = vsdiffmerge
+	guitool = vsdiffmerge
+[init]
+	defaultBranch = main
+[difftool]
+	prompt = true
+[difftool "vsdiffmerge"]
+	cmd = \"C:/Program Files/Microsoft Visual Studio/2022/Preview/Enterprise/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/vsDiffMerge.exe\" \"$LOCAL\" \"$REMOTE\"
+	keepBackup = false
+	path = C:/Program Files/Microsoft Visual Studio/2022/Preview/Enterprise/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/vsDiffMerge.exe
+[mergetool]
+	prompt = true
+[mergetool "vsdiffmerge"]
+	cmd = \"C:/Program Files/Microsoft Visual Studio/2022/Preview/Enterprise/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/vsDiffMerge.exe\" /m \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\"
+	keepBackup = false
+	trustExitCode = true
+	path = C:/Program Files/Microsoft Visual Studio/2022/Preview/Enterprise/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/vsDiffMerge.exe
+[merge]
+	guitool = vsdiffmerge
